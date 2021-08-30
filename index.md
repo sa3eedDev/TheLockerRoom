@@ -12,7 +12,7 @@
  * Jordan Ramkalawan <span style="color: black;">jramkalawan2018@my.fit.edu</span>
  * Matthew Rampersad <span style="color: black;">mrampersad2019@my.fit.edu</span>
 
-# Faculty Sponsor: we looking for one
+#### Faculty Sponsor: we looking for one
  
 ## Fall 2021
  

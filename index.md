@@ -14,7 +14,7 @@
 
  # Faculty Sponsor: we looking for one
  
- ## Fall 2021
+## Fall 2021
  
  ### Plan (Sep 8)
  

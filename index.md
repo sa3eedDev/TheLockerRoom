@@ -12,24 +12,24 @@
  * Jordan Ramkalawan <span style="color: black;">jramkalawan2018@my.fit.edu</span>
  * Matthew Rampersad <span style="color: black;">mrampersad2019@my.fit.edu</span>
 
- # Faculty Sponsor: we looking for one
+# Faculty Sponsor: we looking for one
  
 ## Fall 2021
  
- ### Plan (Sep 8)
+### Plan (Sep 8)
  
   * [Plan]()
   * [Presentaion]()
  
- ### Milestone 1 (Oct 4)
+### Milestone 1 (Oct 4)
   
   coming soon!
  
- ### Milestone 2 (Nov 1)
+### Milestone 2 (Nov 1)
   
   coming soon!
  
- ### Milestone 3 (Nov 29)
+### Milestone 3 (Nov 29)
  
   coming soon!
 

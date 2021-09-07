@@ -12,26 +12,36 @@
  * Jordan Ramkalawan <span style="color: black;">jramkalawan2018@my.fit.edu</span>
  * Matthew Rampersad <span style="color: black;">mrampersad2019@my.fit.edu</span>
 
-#### Faculty Sponsor: we looking for one
+#### Faculty Sponsor: Dr. Eraldo Ribeiro <span style="color: black;">eribeiro@cs.fit.edu</span>
  
 ## Fall 2021
  
 ### Plan (Sep 8)
- 
-  * [Plan]()
-  * [Presentaion]()
+ * [Plan]()
+ * [Presentaion]()
  
 ### Milestone 1 (Oct 4)
   
-  coming soon!
+ * Compare and select technical tools for A, B, C, D & E.
+ * Provide small (“hello world”) demos to evaluate the tools for A, B, C, D & E.
+ * Resolve technical challenges: A, B, C, D & E.
+ * Compare and select collaboration tools for software development, documents/presentations, communication, task calendar
+ * Create Requirement Document
+ * Create Design Document
+ * Create Test plan
+
  
 ### Milestone 2 (Nov 1)
   
-  coming soon!
+ * Implement, test and demo feature creating and maintenance of profiles for users
+ * Implement, test and demo feature adding and maintenance of friends
+
  
 ### Milestone 3 (Nov 29)
  
-  coming soon!
+ * Implement, test and demo chat Implementation
+ * Implement, test and demo making and maintaining group chats
+
 
 
 

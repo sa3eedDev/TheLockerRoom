@@ -1,18 +1,18 @@
-# The Locker Room website Project Website
+# The Locker Room Project Website
 
  Social network optimized for footballers.
  
  
  
-## Project Info
+## Project Information
 
 ### Team Members
 
- * Saeed Binsalman <span style="color: black;">sbinsalman2019@my.fit.edu</span>
- * Jordan Ramkalawan <span style="color: black;">jramkalawan2018@my.fit.edu</span>
- * Matthew Rampersad <span style="color: black;">mrampersad2019@my.fit.edu</span>
+ * Saeed Binsalman <span style="color: black;">~ sbinsalman2019@my.fit.edu</span>
+ * Jordan Ramkalawan <span style="color: black;">~ jramkalawan2018@my.fit.edu</span>
+ * Matthew Rampersad <span style="color: black;">~ mrampersad2019@my.fit.edu</span>
 
-#### Faculty Sponsor: Dr. Eraldo Ribeiro <span style="color: black;">eribeiro@cs.fit.edu</span>
+#### Faculty Sponsor: Dr. Eraldo Ribeiro ~ eribeiro@cs.fit.edu
  
 ## Fall 2021
  

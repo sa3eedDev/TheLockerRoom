@@ -22,10 +22,10 @@
  
 ### Milestone 1 (Oct 4)
   
- [Requirement]()
- [Desgin]()
- [Test]()
- [Presentation]()
+ [Requirement](),
+ [Desgin](),
+ [Test](),
+ [Presentation](),
  [Progress Evaluation]()
 
  In the following steps, the following features will be represented by the letters for A, B and C for ease of readability:
@@ -48,7 +48,7 @@
 
 ### Milestone 2 (Nov 1)
   
- [Presentation]()
+ [Presentation](),
  [Progress Evaluation]()
 
  * Implement, test and demo feature creating and maintenance of profiles for users
@@ -58,7 +58,7 @@
  
 ### Milestone 3 (Nov 29)
  
- [Presentation]()
+ [Presentation](),
  [Progress Evaluation]()
 
  * Implement, test and demo chat Implementation

@@ -17,8 +17,8 @@
 ## Fall 2021
  
 ### Plan (Sep 8)
- * [Plan]()
- * [Presentaion]()
+ * [Plan](https://github.com/sa3eedDev/TheLockerRoom/blob/gh-pages/TLR_Project%20Plan.pdf)
+ * [Presentaion](https://github.com/sa3eedDev/TheLockerRoom/blob/gh-pages/TLR_Presentation.pdf)
  
 ### Milestone 1 (Oct 4)
   

@@ -22,12 +22,13 @@
  
 ### Milestone 1 (Oct 4)
   
- In the following steps, the following features will be represented by the letters for A, B and C for ease of readability:\
-A: creating and maintenance of profiles for ever user \
-B: Adding and maintenance of friends \
-C: Chat Implementation \
-D: Making and maintaining group chats \
-E: Sweat Pages (includes functions such as inviting and searching for users and groups as well as manipulation of data.) 
+ In the following steps, the following features will be represented by the letters for A, B and C for ease of readability:
+
+<span style="font-weight:bold;">A:</span> creating and maintenance of profiles for ever user \
+<span style="font-weight:bold;">B:</span>  Adding and maintenance of friends \
+<span style="font-weight:bold;">C:</span>  Chat Implementation \
+<span style="font-weight:bold;">D:</span>  Making and maintaining group chats \
+<span style="font-weight:bold;">E:</span>  Sweat Pages (includes functions such as inviting and searching for users and groups as well as manipulation of data.) 
 
  * Compare and select technical tools for A, B, C, D & E.
  * Provide small (“hello world”) demos to evaluate the tools for A, B, C, D & E.

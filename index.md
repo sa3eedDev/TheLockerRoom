@@ -22,6 +22,12 @@
  
 ### Milestone 1 (Oct 4)
   
+ [Requirement]()
+ [Desgin]()
+ [Test]()
+ [Presentation]()
+ [Progress Evaluation]()
+
  In the following steps, the following features will be represented by the letters for A, B and C for ease of readability:
 
 <span style="font-weight:bold;">A:</span> creating and maintenance of profiles for ever user \
@@ -38,18 +44,24 @@
  * Create Design Document
  * Create Test plan
 
- 
+
+
 ### Milestone 2 (Nov 1)
   
+ [Presentation]()
+ [Progress Evaluation]()
+
  * Implement, test and demo feature creating and maintenance of profiles for users
  * Implement, test and demo feature adding and maintenance of friends
+
 
  
 ### Milestone 3 (Nov 29)
  
+ [Presentation]()
+ [Progress Evaluation]()
+
  * Implement, test and demo chat Implementation
  * Implement, test and demo making and maintaining group chats
-
-
 
 

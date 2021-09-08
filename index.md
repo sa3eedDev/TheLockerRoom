@@ -22,7 +22,8 @@
  
 ### Milestone 1 (Oct 4)
   
- In the following steps, the following features will be represented by the letters for A, B and C for ease of readability:
+ <span>In the following steps, the following features will be represented by the letters for A, B and C for ease of readability:</span>
+ 
 A: creating and maintenance of profiles for ever user
 B: Adding and maintenance of friends
 C: Chat Implementation

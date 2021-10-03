@@ -22,11 +22,11 @@
  
 ### Milestone 1 (Oct 4)
   
- [Requirement](),
- [Desgin](),
- [Test](),
- [Presentation](),
- [Progress Evaluation]()
+ [Requirement](https://docs.google.com/document/d/1M-3s_wKGhQPi892iIXLs3oth_vfPhDx_8JyXW_42r7I/edit?usp=sharing),
+ [Desgin](https://docs.google.com/document/d/1nrFvtpqS2UvXKLJEeDR4j_BiyHfjYSleb2eQwrMP0vM/edit?usp=sharing),
+ [Test](https://docs.google.com/document/d/1sqT2uyOKsixJro-RElCeq6vKCaXMBhWlQl8ShcAfpoY/edit?usp=sharing),
+ [Presentation](https://docs.google.com/presentation/d/1Z_6ozrNiRF2vasxyx5YWeYDVz6-s_9gufHzVlTVO1BI/edit?usp=sharing),
+ [Progress Evaluation](https://docs.google.com/document/d/13sbFmKuxvVre8YPUJqCrryzRvGdn8l0T3TacfidvL5w/edit?usp=sharing)
 
  In the following steps, the following features will be represented by the letters for A, B and C for ease of readability:
 

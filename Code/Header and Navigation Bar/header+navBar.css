@@ -1,0 +1,36 @@
+h1{
+    color: blue;
+}
+
+
+
+header
+{
+    background-color: black;
+    height:150px;
+    width: 100%;
+    margin:0%;
+    padding:0%;
+}
+
+#headerImg
+{
+    float: left;
+    padding: 25px;
+    width:100px;
+    height:100px;
+}
+
+#headerLabel
+{
+    color: white;
+    float: left;
+    text-align: justify;
+}
+
+nav
+{
+    background-color: red;
+    margin-top: -1.5%;
+    text-align: left;
+}

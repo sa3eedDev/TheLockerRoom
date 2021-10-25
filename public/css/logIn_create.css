@@ -1,0 +1,65 @@
+body
+{
+    background-color: black;
+    margin: auto;
+    width: 50%;
+}
+
+div
+{
+    background-color: grey;
+    margin-top: 15%;
+    margin-bottom: 15%;
+
+    border: red;
+    border-style: solid;
+    border-radius: 2%;
+
+    padding:5%;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+}
+
+#title
+{
+    display: block;
+    border: grey;
+    border-bottom: red;
+    border-style: solid;
+    padding-bottom: 2%;
+    text-align: center;
+    color: ivory;
+}
+
+#pageType
+{
+    text-align: center;
+}
+
+table
+{
+    margin: auto;
+    width: 50%;
+}
+
+input
+{
+    margin: 1%;
+    width: 100%;
+}
+
+label
+{
+    text-emphasis: bold;
+}
+
+#otherChoice
+{
+    width: 100%;
+}

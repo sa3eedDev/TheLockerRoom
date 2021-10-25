@@ -3,17 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>theLockerRoom - Log In</title>
-        <link rel="stylesheet" href="../logIn&create.css">
+        <link rel="stylesheet" type="text/css" href="frontEndCode/logIn_create.css">
         <!-- link javascript when time comes -->
     </head>
 
     <body>
         <div>
-            
-            <form>
+            <form action="/login" method="post">
                     <table>
                         <tr>
-                            <td colspan="2"><img src="../images/thumbnail.png"></td>
+                            <td colspan="2"><img src="frontEndCode/images/thumbnail.png"></td>
                         </tr>
 
                         <tr>
@@ -26,14 +25,14 @@
                         
                         <!-- username -->
                         <tr>
-                            <td><label for="existingUserNameBox" >Username</label></td>
-                            <td><input type="text" id="existingUserNameBox" name="existingUserNameBox"></td>
+                            <td><label for="username" >Username</label></td>
+                            <td><input type="text" id="username" name="username"></td>
                         </tr>
 
                         <!-- password -->
                         <tr>
-                            <td><label for="existingPasswordBox">Password</label></td>
-                            <td><input type="password" id="existingPasswordBox" name="existingPasswordBox"></td>
+                            <td><label for="password">Password</label></td>
+                            <td><input type="password" id="password" name="password"></td>
                         </tr>
 
                 

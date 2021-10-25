@@ -1,9 +1,4 @@
-h1{
-    color: blue;
-}
-
-
-
+/* header styling ----------------------------------------------------------  */
 header
 {
     background-color: black;
@@ -16,9 +11,14 @@ header
 #headerImg
 {
     float: left;
-    padding: 25px;
-    width:100px;
-    height:100px;
+    padding:1.5%;
+    width: 7%;
+    height: 70%;
+}
+
+.bannerContent
+{
+    padding-top: 4.5%;
 }
 
 #headerLabel
@@ -28,9 +28,66 @@ header
     text-align: justify;
 }
 
+
+header ul li 
+{
+    display: inline;
+    float: right;
+    color: white;
+    padding: 1%;
+
+    border-style: hidden;
+    border-radius: 8%;
+
+    margin: 1% 2% 2% 1%;
+
+    background-color:grey;
+    color: white;
+    
+}
+
+header ul li:hover
+{
+    background-color: darkslategrey;
+}
+
+/* navigation bar styling----------------------------------------------------- */
 nav
 {
-    background-color: red;
-    margin-top: -1.5%;
-    text-align: left;
+    background-color: grey;
+    margin-top: -1.1%; 
+}
+
+nav ul li
+{
+    display: inline-block;
+
+    padding: 1.5%;
+
+    border-style: hidden;
+    border-radius: 8%;
+
+    margin: 1% 0.2% ;
+
+    background-color:black;
+    color: white;
+}
+
+nav ul li:hover
+{
+    background-color: darkslategrey;
+}
+
+/* content section styling--------------------------------------------------- */
+#content
+{
+    background-color: darkred;
+    color: white;
+}
+
+/* footer section styling------------------------------------------------------ */
+#footer
+{
+    background-color: black;
+    color: white;
 }

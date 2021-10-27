@@ -2,10 +2,19 @@
 let express = require('express') // Include ExpressJS
 let app = express() // Create an ExpressJS app
 let bodyParser = require('body-parser'); // Middleware
+var flash = require('express-flash');
+var session = require('express-session');
 let connection  = require('./lib/database');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'));
+app.use(flash());
+app.use(session({ 
+  secret: '123456cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { maxAge: 60000 }
+}))
 
 // Route to Homepage
 app.get('/', (req, res) => {
@@ -34,8 +43,8 @@ app.post('/login', (req, res) => {
     }
     else { // if user found
     // render to views/user/edit.ejs template file
-    // req.session.loggedin = true;
-    // req.session.name = name;
+    req.session.loggedin = true;
+    req.session.name = username;
     res.redirect('/');
     }
   })

@@ -8,10 +8,16 @@ create table player(
     lastName varchar(25),
     userName varchar(25),
     email varchar(50),
+    dob date,
     phoneNumber varchar(14),
     profilePicture varchar(1024),
     gender varchar(5),
     passwd varchar(1024),
-    email unique key,
-    idPlayer primary key
+    primary key (idPlayer,email)
 )
+
+-- create table friends(
+    
+
+    
+-- )

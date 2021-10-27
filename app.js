@@ -38,7 +38,7 @@ app.post('/login', (req, res) => {
     if(err) throw err
     // if user not found
     if (rows.length <= 0) {
-    // req.flash('error', 'Please correct enter email and Password!')
+    req.flash('error', 'Please correct enter email and Password!')
     res.redirect('/login')
     }
     else { // if user found
@@ -61,20 +61,20 @@ app.post('/signup', (req, res) => {
     let lastName = req.body.lastName;
     let phone = req.body.phone;
     let dob = req.body.dob;
-    let gender = "male";
+    let gender = req.body.gender;
 
     let newPlayer = [firstName,lastName, username,email,phone,"photo",gender, password];
     connection.query('insert into player (firstName, lastName,userName,email,phoneNumber,profilePicture,gender,passwd) values (?,?,?,?,?,?,?,?)', newPlayer, function(err, result) {
       if(err) throw err
       // if user not found
       if (result.length <= 0) {
-      // req.flash('error', 'Please correct enter email and Password!')
+      req.flash('error', 'Please correct enter email and Password!')
       res.redirect('/login')
       }
       else { // if user found
       // render to views/user/edit.ejs template file
-      // req.session.loggedin = true;
-      // req.session.name = name;
+      req.session.loggedin = true;
+      req.session.name = username;
       res.redirect('/login');
       }
     })

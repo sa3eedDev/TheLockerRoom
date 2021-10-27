@@ -47,6 +47,16 @@
                         <td><input type="date" id="dob" name="dob"></td>
                     </tr>
 
+                    <!-- gender -->
+                    <tr>
+                        <td><label for="gender" >Gender</label></td>
+                        <td><input list="genders" id="gender" name="gender">
+                            <datalist id="genders">
+                                <option value="Male"></option>
+                                <option value="Female"></option>
+                            </datalist>
+                        </td>
+                    </tr>
                     <!-- email address -->
                     <tr>
                         <td><label for="email" >Email Address</label></td>
@@ -57,7 +67,7 @@
 
                     <tr>
                         <td><label for="phone" >Phone Number</label></td>
-                        <td><input type="number" id="phone" name="phone"></td>
+                        <td><input type="tel" id="phone" name="phone"></td>
                     </tr>
 
                     <!-- username -->

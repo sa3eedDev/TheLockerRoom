@@ -1,3 +1,4 @@
+drop database the_locker_room;
 create database the_locker_room;
 
 use the_locker_room;
@@ -13,7 +14,8 @@ create table player(
     profilePicture varchar(1024),
     gender varchar(5),
     passwd varchar(1024),
-    primary key (idPlayer,email)
+    primary key (idPlayer,email),
+    UNIQUE key unique_email(email, userName)
 )
 
 -- create table friends(

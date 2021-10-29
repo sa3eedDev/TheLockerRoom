@@ -18,7 +18,7 @@ app.use(session({
 
 // Route to Homepage
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/public/header_navBar.html');
 });
 
 // Route to Login Page
@@ -45,7 +45,8 @@ app.post('/login', (req, res) => {
     // render to views/user/edit.ejs template file
     req.session.loggedin = true;
     req.session.name = username;
-    res.redirect('/');
+    console.log(rows);
+    res.redirect(`/`);
     }
   })
   // res.sendFile(__dirname + '/public/header_navBar.html');
@@ -64,20 +65,34 @@ app.post('/signup', (req, res) => {
     let gender = req.body.gender;
 
     let newPlayer = [firstName,lastName, username,email,phone,"photo",gender, password];
-    connection.query('insert into player (firstName, lastName,userName,email,phoneNumber,profilePicture,gender,passwd) values (?,?,?,?,?,?,?,?)', newPlayer, function(err, result) {
+    connection.query('SELECT * FROM player WHERE userName = ? OR email = ?', [username,email], function(err, rows, fields) {
       if(err) throw err
       // if user not found
-      if (result.length <= 0) {
+      if (rows.length > 0) {
       req.flash('error', 'Please correct enter email and Password!')
-      res.redirect('/login')
+      res.redirect('/signup')
       }
       else { // if user found
       // render to views/user/edit.ejs template file
-      req.session.loggedin = true;
-      req.session.name = username;
-      res.redirect('/login');
+        connection.query('insert into player (firstName, lastName,userName,email,phoneNumber,profilePicture,gender,passwd) values (?,?,?,?,?,?,?,?)', newPlayer, function(err, result) {
+          if(err){
+            res.redirect("/signup")
+          }
+          // if user not found
+          if (result.length <= 0) {
+          req.flash('error', 'Please correct enter email and Password!')
+          res.redirect('/login')
+          }
+          else { // if user found
+          // render to views/user/edit.ejs template file
+          req.session.loggedin = true;
+          req.session.name = username;
+          res.redirect('/login');
+          }
+        })
       }
     })
+    
   });
 
 const port = 3000 // Port we will listen on

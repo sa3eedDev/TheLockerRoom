@@ -48,8 +48,8 @@
 
 ### Milestone 2 (Nov 1)
   
- [Presentation](),
- [Progress Evaluation]()
+ [Presentation](https://docs.google.com/presentation/d/1Hq7Yq24egJ2RCJKXXqDFv_jY0XWtVbGGR-OToHcyhbc/edit?usp=sharing),
+ [Progress Evaluation](https://docs.google.com/document/d/1rC9Zl39mG-mOYBLGNxYxYI3qTwz07xBpho6hpaP8rj0/edit?usp=sharing)
 
  * Implement, test and demo feature creating and maintenance of profiles for users
  * Implement, test and demo feature adding and maintenance of friends

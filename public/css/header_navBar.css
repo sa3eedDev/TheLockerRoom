@@ -32,7 +32,7 @@ header
 header form button
 {
     display: inline;
-    float: right;
+    float: right; 
     color: white;
     padding: 1%;
 

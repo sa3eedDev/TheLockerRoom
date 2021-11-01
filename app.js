@@ -84,7 +84,6 @@ app.post('/signup', (req, res) => {
           res.redirect('/login')
           }
           else { // if user found
-          // render to views/user/edit.ejs template file
           req.session.loggedin = true;
           req.session.name = username;
           res.redirect('/login');
@@ -93,6 +92,12 @@ app.post('/signup', (req, res) => {
       }
     })
     
+  });
+
+  app.post('/logout', (req, res) => {
+    req.flash('success', 'Login Again Here');
+    req.session.destroy();
+    res.redirect('/login');
   });
 
 const port = 3000 // Port we will listen on

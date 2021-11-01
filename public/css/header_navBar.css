@@ -29,7 +29,7 @@ header
 }
 
 
-header ul li
+header form button
 {
     display: inline;
     float: right;
@@ -46,7 +46,7 @@ header ul li
     
 }
 
-header ul li:hover
+header form button:hover
 {
     background-color: darkslategrey;
 }
@@ -55,10 +55,10 @@ header ul li:hover
 nav
 {
     background-color: grey;
-    margin-top: -1.1%; 
 }
 
-nav ul li
+
+/* nav ul li, button
 {
     display: inline-block;
 
@@ -71,9 +71,26 @@ nav ul li
 
     background-color:black;
     color: white;
+} */
+form
+{
+    margin-left: 1%;
 }
 
-nav ul li:hover
+nav form button
+{
+    padding: 1.5%;
+
+    border-style: hidden;
+    border-radius: 8%;
+
+    margin: 1% 0.2% ;
+
+    background-color:black;
+    color: white;
+}
+
+nav ul li:hover, button:hover
 {
     background-color: darkslategrey;
 }

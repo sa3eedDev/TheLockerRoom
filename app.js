@@ -2,13 +2,17 @@
 let express = require('express') // Include ExpressJS
 let app = express() // Create an ExpressJS app
 let bodyParser = require('body-parser'); // Middleware
-var flash = require('express-flash');
-var session = require('express-session');
+let flash = require('express-flash');
+let session = require('express-session');
+let cookieParser = require('cookie-parser')
+
 let connection  = require('./lib/database');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'));
+app.set('view engine', 'ejs');
 app.use(flash());
+app.use(cookieParser('123456cat'));
 app.use(session({ 
   secret: '123456cat',
   resave: false,
@@ -18,16 +22,16 @@ app.use(session({
 
 // Route to Homepage
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/header_navBar.html');
+  res.render(__dirname + '/public/homepage');
 });
 
 // Route to Login Page
 app.get('/login', (req, res) => {
-  res.sendFile(__dirname + '/public/log_in.html');
+  res.render(__dirname + '/public/login');
 });
 
 app.get('/signup', (req, res) => {
-    res.sendFile(__dirname + '/public/createProfile.html');
+    res.render(__dirname + '/public/signup');
   });
 
 app.post('/login', (req, res) => {
@@ -69,7 +73,12 @@ app.post('/signup', (req, res) => {
       if(err) throw err
       // if user not found
       if (rows.length > 0) {
-      req.flash('error', 'Please correct enter email and Password!')
+        if (email == rows[0]["email"]){
+          req.flash('error', 'This email has been used before, please use a different one!')
+        }
+        else{
+          req.flash('error', 'This username has been used before, please use a different one!')
+        }
       res.redirect('/signup')
       }
       else { // if user found
@@ -80,12 +89,12 @@ app.post('/signup', (req, res) => {
           }
           // if user not found
           if (result.length <= 0) {
-          req.flash('error', 'Please correct enter email and Password!')
+          // req.flash('error', '')
           res.redirect('/login')
           }
           else { // if user found
-          req.session.loggedin = true;
-          req.session.name = username;
+          // req.session.loggedin = true;
+          // req.session.name = username;
           res.redirect('/login');
           }
         })

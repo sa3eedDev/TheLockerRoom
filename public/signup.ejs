@@ -10,7 +10,11 @@
 
     <body>
         <div class="container">
-               
+            <% if (messages.error) { %>
+                <div class="alert alert-warning" role="alert">
+                   <%- messages.error %>
+                </div>
+            <% } %>
             <form action="/signup" method="POST">
                 <table>
                     <tr>

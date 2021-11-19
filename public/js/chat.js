@@ -4,9 +4,14 @@ const messageForm = document.getElementById('send-container')
 const messageInput = document.getElementById('message-input')
 
 // const name = require("../app")
-
-
-const name = prompt('What is your name?')
+// var uname = " ";
+if (username == null){
+  const uname = prompt('What is your name?');
+}
+else{
+  const uname = username;
+}
+console.log(uname);
 appendMessage('You joined')
 socket.emit('new-user', name)
 

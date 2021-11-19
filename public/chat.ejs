@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Chat App</title>
   <script defer src="http://localhost:3001/socket.io/socket.io.js"></script>
-  <script defer src="chat.js"></script>
+  <script defer src="js/chat.js"></script>
   <!-- <script type="text/javascript" src="app.js"></script> -->
   <style>
     body {
@@ -46,6 +46,11 @@
   </style>
 </head>
 <body>
+  <script>var uname = "<%= name %>";</script>
+  <% if (username != null) { %>
+      <h1><%= username %></h1>
+  <% } %>
+
   <div id="message-container"></div>
   <form id="send-container">
     <input type="text" id="message-input">

@@ -5,13 +5,8 @@ const messageInput = document.getElementById('message-input')
 
 // const name = require("../app")
 // var uname = " ";
-if (username == null){
-  const uname = prompt('What is your name?');
-}
-else{
-  const uname = username;
-}
-console.log(uname);
+const name = username;
+console.log(username);
 appendMessage('You joined')
 socket.emit('new-user', name)
 

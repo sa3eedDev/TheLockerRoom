@@ -31,91 +31,94 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end " id="main-nav">
-                    <ul class="navbar-nav navbar-nav-scroll nav-justified ">
-                        <li class="nav-item me-3 ">
-                            <button style="background-color: inherit;border: none;" type="submit">
-                                <a href="#" class="nav-link">
-                                    <span class="text-danger"><i class="bi bi-house"></i><br>Home</span>
+                    <form>
+                        <ul class="navbar-nav navbar-nav-scroll nav-justified ">
+                            <li class="nav-item me-2 ">
+                                <button style="background-color: inherit;border: none;" type="submit">
+                                    <a href="#" class="nav-link">
+                                        <span class="text-danger"><i class="bi bi-house"></i><br>Home</span>
+                                    </a>
+                                </button>
+                            </li>
+    
+                            <li class="nav-item me-2">
+                                <button style="background-color: inherit;border: none;" type="submit">
+                                    <a href="#" class="nav-link">
+                                        <span><i class="bi bi-thermometer-high"></i><br>Sweats</span>
+                                    </a>
+                                </button>
+                            </li>
+    
+                            <li class="nav-item me-2">
+                                <button style="background-color: inherit;border: none;" type="submit">
+                                    <a href="#" class="nav-link">
+                                        <span><i class="bi bi-people"></i><br>Groups</span>
+                                    </a>
+                                </button>
+                            </li>
+    
+                            <li class="nav-item me-2">
+                                <button style="background-color: inherit;border: none;" type="submit">
+                                    <a href="#" class="nav-link">
+                                        <span><i class="bi bi-person"></i><br>Friends</span>
+                                    </a>
+                                </button>
+                            </li>
+    
+                            <li class="nav-item me-2">
+                                <button style="background-color: inherit;border: none;" type="submit">
+                                    <a href="#" class="nav-link">
+                                        <span><i class="bi bi-bell"></i><br>Notifications</span>
+                                    </a>
+                                </button>
+                            </li>
+    
+                            <li class="nav-item me-2">
+                                <button style="background-color: inherit;border: none;" type="submit" formaction="/chat" formmethod="GET">
+                                    <a href="#" class="nav-link">
+                                        <span><i class="bi bi-chat-left"></i><br>Chats</span>
+                                    </a>
+                                </button>
+                            </li>
+    
+    
+                            <li class="nav-item dropdown dropdown-menu-start">
+                                <a class="nav-link " href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="me-2  dropdown-toggle"><i class="bi bi-gear"></i><br>*profile stuff*</span>
+                                    
                                 </a>
-                            </button>
-                        </li>
-
-                        <li class="nav-item me-3">
-                            <button style="background-color: inherit;border: none;" type="submit">
-                                <a href="#" class="nav-link">
-                                    <span><i class="bi bi-thermometer-high"></i><br>Sweats</span>
-                                </a>
-                            </button>
-                        </li>
-
-                        <li class="nav-item me-3">
-                            <button style="background-color: inherit;border: none;" type="submit">
-                                <a href="#" class="nav-link">
-                                    <span><i class="bi bi-people"></i><br>Groups</span>
-                                </a>
-                            </button>
-                        </li>
-
-                        <li class="nav-item me-3">
-                            <button style="background-color: inherit;border: none;" type="submit">
-                                <a href="#" class="nav-link">
-                                    <span><i class="bi bi-person"></i><br>Friends</span>
-                                </a>
-                            </button>
-                        </li>
-
-                        <li class="nav-item me-3">
-                            <button style="background-color: inherit;border: none;" type="submit">
-                                <a href="#" class="nav-link">
-                                    <span><i class="bi bi-bell"></i><br>Notifications</span>
-                                </a>
-                            </button>
-                        </li>
-
-                        <li class="nav-item me-3">
-                            <button style="background-color: inherit;border: none;" type="submit" formaction="/chat" formmethod="GET">
-                                <a href="#" class="nav-link">
-                                    <span><i class="bi bi-chat-left"></i><br>Chats</span>
-                                </a>
-                            </button>
-                        </li>
-
-
-                        <li class="nav-item dropdown dropdown-menu-start">
-                            <a class="nav-link " href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span class="me-3  dropdown-toggle"><i class="bi bi-gear"></i><br>*profile stuff*</span>
-                                
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
-                                <!-- change this to profile pic and username -->
-                                <li class="dropdown-item nav-item">
-                                    <button style="background-color: inherit;border: none;" type="submit">
-                                        <a href="#" class="nav-link dropdown-item">
-                                            <i class="bi bi-person-circle"></i><br>View Profile
-                                        </a>
-                                    </button>
-                                </li>
-
-                                <li class="dropdown-item nav-item">
-                                    <button style="background-color: inherit;border:none;" type="submit">
-                                        <a href="#" class="nav-link dropdown-item">
-                                            <i class="bi bi-gear"></i><br>Settings
-                                        </a>
-                                    </button>
-                                </li>
-
-                                <li><hr class="dropdown-divider"></li>
-
-                                <li class="dropdown-item nav-item">
-                                    <button style="background-color: inherit;border: none;" type="submit" formaction="/logout" formmethod="POST">
-                                        <a href="#" class="nav-link dropdown-item">
-                                            <i class="bi bi-box-arrow-in-right"></i><br>Logout
-                                        </a>
-                                    </button>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                                    <!-- change this to profile pic and username -->
+                                    <li class="dropdown-item nav-item">
+                                        <button style="background-color: inherit;border: none;" type="submit">
+                                            <a href="#" class="nav-link dropdown-item">
+                                                <i class="bi bi-person-circle"></i><br>View Profile
+                                            </a>
+                                        </button>
+                                    </li>
+    
+                                    <li class="dropdown-item nav-item">
+                                        <button style="background-color: inherit;border:none;" type="submit">
+                                            <a href="#" class="nav-link dropdown-item">
+                                                <i class="bi bi-gear"></i><br>Settings
+                                            </a>
+                                        </button>
+                                    </li>
+    
+                                    <li><hr class="dropdown-divider"></li>
+    
+                                    <li class="dropdown-item nav-item">
+                                        <button style="background-color: inherit;border: none;" type="submit" formaction="/logout" formmethod="POST">
+                                            <a href="#" class="nav-link dropdown-item">
+                                                <i class="bi bi-box-arrow-in-right"></i><br>Logout
+                                            </a>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </form>
+                    
                 </div>
     
             </div>

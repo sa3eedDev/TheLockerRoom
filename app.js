@@ -37,9 +37,9 @@ app.get('/login', (req, res) => {
 app.get('/signup', (req, res) => {
     res.render(__dirname + '/public/signup');
   });
-app.get('/chat', (req, res) => {
-    res.render(__dirname + '/public/chat', {username: req.session.name});
-})
+// app.get('/chat', (req, res) => {
+//     res.render(__dirname + '/public/chat', {username: req.session.name});
+// })
 
 //login request
 app.post('/login', login_TLR);
@@ -53,13 +53,25 @@ app.post('/logout', (req, res) => {
   res.redirect('/login');
 });
 
+
+app.get('/chat', isLoggedIn, function (req, res) {
+  // store userId on login into session or any global variable 
+  res.redirect('/chat/'+req.session.name, {username: req.session.name}) 
+});
+
+app.get('/chat/:id', function (req, res) {
+  var id = req.session.name
+  
+  res.render(__dirname + '/public/chat', {username: req.session.name})
+  // res.render('./pages/profile.ejs', {user: id});  
+})
+ 
 app.get("*", (req, res) =>
 res.status(404).json({
   status: 404,
   message: "There is a problem with your request!",
 })
 );
-
 const port = 3000 // Port we will listen on
 
 // Function to listen on the port
@@ -87,3 +99,17 @@ io.on('connection', socket => {
 })
 
 console.log("started the chat server");
+
+function isLoggedIn(req, res, next) {
+
+  // if user is authenticated in the session, carry on
+  if(req.session.loggedin){
+    return next();
+  }
+
+
+  // if they aren't redirect them to the home page
+  else{
+    res.redirect('/login');
+  }
+}

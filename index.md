@@ -58,8 +58,8 @@
  
 ### Milestone 3 (Nov 29)
  
- [Presentation](),
- [Progress Evaluation]()
+ [Presentation](https://docs.google.com/presentation/d/10p1t7pPOE9DteLNg7mWDzTRweske15__aPw09xtazy0/edit?usp=sharing),
+ [Progress Evaluation](https://docs.google.com/document/d/1-F0u1DxbtqO3gv58j0SM6T7dOhh3xY2MAsi0QUFgkIw/edit?usp=sharing)
 
  * Implement, test and demo chat Implementation
  * Implement, test and demo making and maintaining group chats

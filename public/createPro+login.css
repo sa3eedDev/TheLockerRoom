@@ -1,0 +1,30 @@
+html
+{
+    background-color: black;
+}
+
+body
+{
+    background-color: inherit;
+}
+
+.full-width
+{
+    min-height: 100vh;
+}
+
+#shell
+{
+    box-shadow:5px 5px 5px #8B0000;
+}
+
+div ul li a.active
+{
+    background-color: #8B0000 !important;
+    color: white !important;
+}
+
+div ul li a
+{
+    color: white !important;
+}

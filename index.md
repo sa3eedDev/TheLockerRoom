@@ -64,4 +64,8 @@
  * Implement, test and demo chat Implementation
  * Implement, test and demo making and maintaining group chats
 
+## Spring 2022
 
+### Plan 
+ * [Plan](https://docs.google.com/document/d/1z6d-z7RxPJlO0HW0P8KIHQ9wda5vKmSU37_0uLMq5t4/edit?usp=sharing)
+ * [Presentaion](https://docs.google.com/presentation/d/12ifhJwa4fnWqEGbJ61404VA0LHc89trx_r55xhXkhDA/edit?usp=sharing)

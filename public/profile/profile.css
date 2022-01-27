@@ -1,0 +1,21 @@
+body
+{
+    background-image: url('../Images/profileBack.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+/* .full-width
+{
+    min-height: 100vh;
+} */
+
+#content
+{
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}

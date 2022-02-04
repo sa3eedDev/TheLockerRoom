@@ -23,3 +23,8 @@ create table player(
 
     
 -- )
+
+
+create table chat(
+    
+)

@@ -22,20 +22,24 @@ app.use(session({
   saveUninitialized: true,
   cookie: { maxAge: 60000 }
 }))
+app.use(function(req, res, next) {
+  res.locals.user = req.session.user;
+  next();
+});
 
 // Route to Homepage
-app.get('/', (req, res) => {
+app.get('/', isLoggedIn,(req, res) => {
   res.render(__dirname + '/public/homepage');
 });
 
 // Route to Login Page
 app.get('/login', (req, res) => {
-  res.render(__dirname + '/public/login');
+  res.render(__dirname + '/public/loginSignup');
 });
 
 //Route to Signup
 app.get('/signup', (req, res) => {
-    res.render(__dirname + '/public/signup');
+    res.render(__dirname + '/public/loginSignup');
   });
 // app.get('/chat', (req, res) => {
 //     res.render(__dirname + '/public/chat', {username: req.session.name});
@@ -56,7 +60,7 @@ app.post('/logout', (req, res) => {
 
 app.get('/chat', isLoggedIn, function (req, res) {
   // store userId on login into session or any global variable 
-  res.redirect('/chat/'+req.session.name, {username: req.session.name}) 
+  res.redirect('/chat/'+req.session.name) 
 });
 
 app.get('/chat/:id', function (req, res) {

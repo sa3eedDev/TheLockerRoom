@@ -14,7 +14,7 @@ let login_TLR = async(req, res) =>{
       // render to views/user/edit.ejs template file
       req.session.loggedin = true;
       req.session.name = username;
-      res.render(__dirname + '/public/homepage', {username: username});
+      res.redirect("/");
       }
     })
 };

@@ -69,3 +69,32 @@
 ### Plan 
  * [Plan](https://docs.google.com/document/d/1z6d-z7RxPJlO0HW0P8KIHQ9wda5vKmSU37_0uLMq5t4/edit?usp=sharing)
  * [Presentaion](https://docs.google.com/presentation/d/12ifhJwa4fnWqEGbJ61404VA0LHc89trx_r55xhXkhDA/edit?usp=sharing)
+
+### Milestone 4 (Feb 14)
+ 
+ [Presentation](),
+ [Progress Evaluation]()
+
+ * Complete implementation and begin testing and demo of Friends Feature
+ * Resolve Chat Issues
+ * Implementation of Friends
+
+### Milestone 5 (Mar 21)
+ 
+ [Presentation](),
+ [Progress Evaluation]()
+
+ * Complete Implementation and begin testing and demo of Friends
+ * Implementation of Sweats 
+
+### Milestone 6 (Apr 18)
+ 
+ [Presentation](),
+ [Progress Evaluation]()
+
+ * Complete Implementation, testing and demo of Sweats
+ * Implement, test and demo Groups
+ * Test/Demo entire system
+ * Evaluation Results
+ * Create user/developer manual
+ * Create Demo Video

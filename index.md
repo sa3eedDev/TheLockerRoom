@@ -72,8 +72,8 @@
 
 ### Milestone 4 (Feb 14)
  
- [Presentation](),
- [Progress Evaluation]()
+ [Presentation](https://docs.google.com/presentation/d/1ndl7oM2Gb8_7mcafx_slt6uMHoL3xtqTwhwvCcg9LyU/edit?usp=sharing),
+ [Progress Evaluation](https://docs.google.com/document/d/1zXSgZ-PIlJSkbnc66fj-Y7g0H5diHZAJZjmTW-3hHFM/edit?usp=sharing)
 
  * Complete implementation and begin testing and demo of Friends Feature
  * Resolve Chat Issues

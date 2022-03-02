@@ -15,19 +15,20 @@ create table player(
     gender varchar(5) not null,
     passwd varchar(1024) not null,
     primary key (idPlayer,email),
-    UNIQUE key unique_email(email, userName)
-)
+    UNIQUE key unique_email(email),
+    UNIQUE key unique_userName(userName)
+);
 
 create table friends(
     userName varchar(25) not null,
-    firend varchar(25) not null,
-    foreign key (name) references player (userName),
-    primary key(userName, firend) 
-)
+    friend varchar(25) not null,
+    foreign key (userName) references player(userName),
+    primary key(userName, friend) 
+);
 
-create table friend_request{
+create table friend_request(
     sender varchar(25),
     receiver varchar(25),
     foreign key (sender) references player (userName),
     primary key (sender, receiver)
-}
+);

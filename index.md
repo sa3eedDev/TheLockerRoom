@@ -11,6 +11,7 @@
  * Saeed Binsalman <span style="color: black;">~ sbinsalman2019@my.fit.edu</span>
  * Jordan Ramkalawan <span style="color: black;">~ jramkalawan2018@my.fit.edu</span>
  * Matthew Rampersad <span style="color: black;">~ mrampersad2019@my.fit.edu</span>
+ * Olisenachi Dexter Elumelu <span style="color: black;">~ oelumelu2017@my.fit.edu</span> 
 
 #### Faculty Sponsor: Dr. Eraldo Ribeiro ~ eribeiro@cs.fit.edu
  

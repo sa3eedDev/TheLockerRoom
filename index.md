@@ -90,8 +90,11 @@
 
 ### Milestone 6 (Apr 18)
  
- [Presentation](),
- [Progress Evaluation]()
+ [Presentation](https://docs.google.com/presentation/d/1Z2vpPiLVGTGpuYZwhflHDyYCWpo7Lo4xuOCSncIZAOM/edit?usp=sharing),
+ [Progress Evaluation](https://docs.google.com/document/d/1s54gPWPVixR4pSHrqJutXXAQbr823YVA68aPRK_UWpA/edit?usp=sharing),
+ [User Manual](https://docs.google.com/document/d/1-jQ7N5Wpihr6aNAThcMEH04RRU_4YH2VAnkGbTT6eiQ/edit?usp=sharing),
+ [eBook](https://docs.google.com/document/d/1QePo0NzFlm7NK17J-YUSj2xZIG3obbfV/edit?usp=sharing&ouid=103688568333006605792&rtpof=true&sd=true),
+ [Poster](https://docs.google.com/presentation/d/1Bvcr_D1froo8LwzrajGXIadyM84f7gfx/edit?usp=sharing&ouid=103688568333006605792&rtpof=true&sd=true)
 
  * Complete Implementation, testing and demo of Sweats
  * Implement, test and demo Groups
